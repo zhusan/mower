@@ -15,7 +15,7 @@ class Lawn
 
   def valid?
     unless x >0 && y > 0
-      puts "请输入正确的坐标"
+      puts '请输入正确的坐标'
       return false
     end
     return true
